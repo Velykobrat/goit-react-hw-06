@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
 import styles from './Contact.module.css';
 
-
 function Contact({ id, name, number, onDeleteContact }) {
   return (
     <li className={styles.listItem}>
@@ -20,4 +19,3 @@ Contact.propTypes = {
 };
 
 export default Contact;
-
